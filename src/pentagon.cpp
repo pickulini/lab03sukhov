@@ -33,7 +33,7 @@ Point Pentagon::geometricCenter() const {
 }
 
 double Pentagon::area() const {
-    // Правильная формула площади многоугольника через координаты (формула шнурования)
+    // формула шнурования
     double area = 0;
     for(int i = 0; i < 5; ++i) {
         int j = (i + 1) % 5;
